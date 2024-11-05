@@ -12,6 +12,7 @@
     min-height: 6rem;
     max-height: 6rem;
     background-color: var(--color1);
+    width: 100%;
 }
 
 .icon {
