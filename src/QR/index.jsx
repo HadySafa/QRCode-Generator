@@ -3,7 +3,7 @@ import QRCode from 'react-qr-code'
 import { useState, useRef } from 'react';
 import leftArrow from '../assets/leftArrow.png'
 
-function QR({choice}) {
+function QR({choice,scan,setScan}) {
 
     const choices = [
         {
@@ -28,7 +28,7 @@ function QR({choice}) {
         }
     ]
 
-    const [scan, setScan] = useState("");
+    
     const [QRValue, setQRValue] = useState("https://www.linkedin.com/in/hadyabdallahsafa/");
     const input = useRef();
 

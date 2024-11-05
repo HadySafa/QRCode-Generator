@@ -6,10 +6,11 @@ import { FaGithub } from "react-icons/fa";
 import { RiLinkedinBoxFill } from "react-icons/ri";
 
 
-function Choice({choice,setChoice}){
+function Choice({choice,setChoice,setScan}){
 
     function handleClick(title){
         setChoice(title)
+        setScan(false)
     }
 
 
