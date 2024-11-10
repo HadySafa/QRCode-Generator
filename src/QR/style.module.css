@@ -10,7 +10,9 @@
 
 .qrContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 1rem;
 }
 
 .inputContainer {
@@ -43,6 +45,10 @@
     cursor: pointer;
     transition: transform 0.5s ease;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .button:hover {
